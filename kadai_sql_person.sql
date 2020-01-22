@@ -1,0 +1,6 @@
+CREATE TABLE kadaidb.person (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
